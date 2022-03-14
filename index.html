@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+        .container { max-width: 1190px; }
+        .f-coda { font-family: 'Coda', cursive; }
+        .f-work-sans { font-family: 'Work Sans', sans-serif; }
+        .text-lg { font-size: 18px; line-height: 23px; }
+        .text-sm { font-size: 10px; line-height: 20px; }
+        .p { padding: 30px 43px 31px 44px; }
+        .bg-orange { background: #F55D48; }
+        .bg-gray { background: #574B4B; }
+        .text-gray { color: #574B4B; }
+        .bg-white { background: #DBD9D9; }
+        .text-white-100 { color: #DBD9D9; }
+        .text-black { color: #222222; }
+        .bg-cinnamon { background: #574B4B; }
+        .text-cinnamon { background: #574B4B; }
+        .border-gray-right { border-right: 1px solid #574B4B; }
+        .border-gray-left { border-left: 1px solid #574B4B; }
+        .border-gray-bottom { border-bottom: 1px solid #574B4B; }
+        .border-gray-top { border-top: 1px solid #574B4B; }
+        .border-white-bottom { border-bottom: 1px solid #DBD9D9; }
+        .border-white-top { border-top: 1px solid #DBD9D9; }
+        .border-white-right { border-right: 1px solid #DBD9D9; }
+        .border-white-left { border-left: 1px solid #DBD9D9; }
+        .main-title { font-size: 139px; line-height: 182px; }
+        .text-title { font-size: 63px; line-height: 83px; }
+        .text-xs { font-size: 10px; line-height: 20px; }
+        .text-sm-title { font-size: 31px; line-height: 41px; }
+        img { display: inline-block; }
+    </style>
+    <!-- fons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- tailwindcss -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="f-coda">
+    <header class="border-gray-bottom">
+        <div class="container mx-auto" style="max-width: 1469px;">
+            <div class="flex justify-between">
+                <div class="flex items-center justify-center border-gray-right" style="width: 141px;">
+                    <img src="./img/N.svg" alt="N">
+                </div>
+                <ul class="flex f-work-sans">
+                    <li class="f-work-sans text-sm text-black p hover:text-red-400 cursor-pointer" style="font-size: 14px;">Home</li>
+                    <li class="f-work-sans text-sm text-black p hover:text-red-400 cursor-pointer" style="font-size: 14px;">Projects</li>
+                    <li class="f-work-sans text-sm text-black p hover:text-red-400 cursor-pointer" style="font-size: 14px;">About</li>
+                    <li class="f-work-sans text-sm text-black p bg-orange text-white cursor-pointer" style="font-size: 14px;">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-right border-gray-left">
+                <div style="padding: 14px 0 34px 39px">
+                    <div class="main-title text-gray">NOVA</div>
+                    <div class="main-title text-gray">ARCHITECTS</div>
+                </div>
+                <div class="bg-gray h-px w-full"></div>
+                <div style="padding: 40px 0 37px 79px;">
+                    <div class="text-gray text-lg f-work-sans max-w-md">My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <img src="./img/nova.png" alt="Nova" class="w-full">
+    </div>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-bottom">
+                <div class="text-title text-gray" style="padding: 94px 0 100px 40px;">LESS IS MORE AT NOVA</div>
+            </div>
+            <div class="flex items-start justify-between border-gray-bottom">
+                <div class="w-full">
+                    <div style="padding: 39px 0 87px 79px;">
+                        <div class="text-gray text-lg f-work-sans max-w-2xl">Hey, you know how I'm, like, always trying to save the planet? Here's my chance. So you two dig up, dig up dinosaurs?!</div>
+                    </div>
+                    <div class="absolute container text-center" style="padding-right: 45px;">
+                        <img src="./img/jungle.png" alt="Forest">
+                    </div>
+                    <div style="padding: 564px 0 81px 80px;">
+                        <div class="text-gray text-lg f-work-sans" style="width: 424px">Goodbye! You really think you can fly that thing? You're a very talented young man, with your own clever thoughts and ideas.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="relative" style="width: 140px;">
+                        <div class="absolute right-0">
+                            <a href="#" class="flex items-center justify-center bg-orange rounded-full" style="width: 140px; height: 140px;">
+                                <img src="./img/arrow-top-right.svg" alt="">
+                            </a>
+                            <div class="absolute right-0 text-sm text-gray f-work-sans tranform -rotate-90" style="top: 174px; right: 25px;">ABOUT NOVA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-bottom">
+                <div class="text-title text-gray" style="padding: 92px 0 100px 40px;">NOVA PROJECTS</div>
+            </div>
+            <div class="flex items-start justify-between border-gray-bottom">
+                <div>
+                    <div class="text-sm-title text-gray" style="padding: 32px 0 0 11px;">Project 1</div>
+                    <div style="padding: 46px 0 0px 11px;">
+                        <div class="text-gray text-lg f-work-sans w-72">Hey, take a look at the earthlings. Goodbye! Forget the fat lady! You're obsessed with the fat lady!</div>
+                    </div>                    
+                </div>
+                <div style="padding-left: 40px;">
+                    <div id="carouselExampleControls" class="carousel slide  overflow-hidden vidibility-hidden" style="width: 643px; height: 599px;" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/arhitextura.png" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://avatars.mds.yandex.net/get-altay/3219045/2a0000017587d199db6c963a80abc5492a8a/XXL" alt="Second slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+                <div>
+                    <div class="relative" style="width: 140px;">
+                        <div class="absolute right-0">
+                            <a href="#" class="flex items-center justify-center bg-orange rounded-full" style="width: 140px; height: 140px;">
+                                <img src="./img/arrow-top-right.svg" alt="">
+                            </a>
+                            <div class="absolute right-0 text-sm text-gray f-work-sans tranform -rotate-90" style="top: 176px; right: 15px;">VIEW PROJECT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-bottom">
+                <div class="text-title text-gray" style="padding: 92px 0 100px 40px;">NOVA HIGHLIGHTS</div>
+            </div>
+            <div class="grid grid-cols-3">
+                <div>
+                    <div class="text-sm-title text-gray" style="padding: 37px 0 25px 39px;">169</div>
+                    <div class="text-center border-white-top border-white-bottom">
+                        <img src="./img/start.png" alt="">
+                    </div>
+                    <div class="text-right">
+                        <div class="text-gray text-lg f-work-sans w-72 text-right inline-block" style="padding: 42px 40px 40px 0">Yeah, but your scientists were so preoccupied with whether or not.</div>
+                    </div>
+                </div>
+                <div class="border-gray-left border-gray-right">
+                    <div class="text-sm-title text-gray" style="padding: 37px 0 25px 39px;">200</div>
+                    <div class="text-center border-white-top border-white-bottom">
+                        <img src="./img/earth.png" alt="">
+                    </div>
+                    <div class="text-right">
+                        <div class="text-gray text-lg f-work-sans w-72 text-right inline-block" style="padding: 42px 40px 40px 0">Yeah, but your scientists were so preoccupied with whether or not.</div>
+                    </div>
+                </div>
+                <div class="border-gray-right">
+                    <div class="text-sm-title text-gray" style="padding: 37px 0 25px 39px;">100MIL</div>
+                    <div class="text-center border-white-top border-white-bottom">
+                        <img src="./img/dollar.png" alt="">
+                    </div>
+                    <div class="text-right">
+                        <div class="text-gray text-lg f-work-sans w-72 text-right inline-block" style="padding: 42px 40px 40px 0">Yeah, but your scientists were so preoccupied with whether or not.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-top">
+                <div class="text-title text-gray" style="padding: 92px 0 100px 40px;">AWARDS WE WON</div>
+            </div>
+            <div class="border-white-right border-gray-bottom">
+                <div class="grid grid-cols-3" style="height: 401px;">
+                    <div class="flex flex-wrap content-between border-gray-top">
+                        <div style="padding: 62px 0 0 81px;">
+                            <div class="text-sm-title text-gray">NSW<br>AWARD</div>
+                            <div class="text-gray f-work-sans" style="font-size: 12px; line-height: 20px; padding-top: 25px;">2021</div>
+                        </div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div class="flex flex-wrap content-between border-white-left border-gray-top">
+                        <div class="text-gray text-lg f-work-sans inline-block" style="width: 325px; padding: 63px 0px 0px 39px">Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.</div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div>
+                        <img src="./img/cube.png" alt="">
+                    </div>
+                </div>
+                <div class="grid grid-cols-3" style="height: 401px;">
+                    <div class="flex flex-wrap content-between border-gray-top">
+                        <div style="padding: 62px 0 0 81px;">
+                            <div class="text-sm-title text-gray">ROBIN BOYD<br>AWARD</div>
+                            <div class="text-gray f-work-sans" style="font-size: 14px; line-height: 20px; padding-top: 26px;">2019</div>
+                        </div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div class="flex flex-wrap content-between border-white-left border-gray-top">
+                        <div class="text-gray text-lg f-work-sans inline-block" style="width: 315px; padding: 63px 0px 0px 39px">They're using our own satellites against us. And the clock is ticking. You know what? It is beets. I've crashed into a beet truck. Checkmate...</div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div>
+                        <img src="./img/robin-boyd.png" alt="">
+                    </div>
+                </div>
+                <div class="grid grid-cols-3" style="height: 401px;">
+                    <div class="flex flex-wrap content-between border-gray-top">
+                        <div style="padding: 62px 0 0 81px;">
+                            <div class="text-sm-title text-gray">PRITZKER<br>PRIZE</div>
+                            <div class="text-gray f-work-sans" style="font-size: 14px; line-height: 20px; padding-top: 26px;">2018</div>
+                        </div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div class="flex flex-wrap content-between border-white-left border-gray-top">
+                        <div class="text-gray text-lg f-work-sans inline-block" style="width: 335px; padding: 63px 0px 0px 39px">Hey, take a look at the earthlings. Goodbye! Checkmate... Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.</div>
+                        <div class="bg-white w-full h-px"></div>
+                    </div>
+                    <div>
+                        <img src="./img/architecture-prize.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <div class="border-gray-top border-gray-bottom">
+                <div class="text-title text-gray" style="padding: 92px 0 100px 40px;">OUR SAN FRANCISCO OFFICE</div>
+            </div>
+            <div class="text-center border-gray-bottom" style="margin: 2px 0 0px 0;">
+                <div id="carouselExampleControls" class="carousel inline-block slide overflow-hidden vidibility-hidden" style="max-width: 931px; height: 656px;" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/carousel-img.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://avatars.mds.yandex.net/get-altay/3219045/2a0000017587d199db6c963a80abc5492a8a/XXL" alt="Second slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="border-gray-bottom">
+                <div class="text-title text-gray" style="padding: 92px 0 98px 40px; letter-spacing: 0.6px;">LET'S CREATE SOMETHING TOGETHER</div>
+            </div>
+            <div class="flex items-start justify-between">
+                <div class="w-full">
+                    <div class="text-gray text-lg f-work-sans inline-block max-w-2xl" style="margin: 39px 0px 62px 80px">They're using our own satellites against us. And the clock is ticking. You know what? It is beets.</div>
+                    <div class="text-center absolute container" style="padding-right: 46px;">
+                        <img src="./img/circle.png" alt="">
+                    </div>
+                    <div class="text-gray text-lg f-work-sans inline-block max-w-2xl" style="margin: 567px 0px 77px 80px">Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Forget the fat lady!</div>
+                </div>
+                <div>
+                    <div class="relative" style="width: 140px;">
+                        <div class="absolute right-0">
+                            <a href="#" class="flex items-center justify-center bg-orange rounded-full" style="width: 140px; height: 140px;">
+                                <img src="./img/arrow-top-right.svg" alt="" class="inline-block">
+                            </a>
+                            <div class="absolute right-0 text-sm text-gray f-work-sans" style="top: 158px; right: 63px;">W <br> RI <br> TE <br> TO <br> US</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container mx-auto">
+            <div class="grid grid-cols-3 border-gray-top">
+                <div class="flex items-center justify-center" style="padding: 41px 0 40px 0;">
+                    <div class="bg-cinnamon" style="width: 306px;">
+                        <div class="border-white-bottom pl-6">
+                            <img src="./img/heart.svg" alt="heart">
+                        </div>
+                        <div style="padding: 19px 52px 18px 24px">
+                            <div class="text-gray text-lg text-white inline-block">HIRE US FOR WEBSITES LIKE THIS</div>
+                            <div class="text-white f-work-sans" style="font-size: 13px; margin-top: 11px; line-height: 18px;">Mail us:</div>
+                            <a href="https://mail.ru/barsha@mail.ru" class="text-white f-work-sans hover:bg-red-400" style="font-size: 13px; line-height: 18px;">barsha@righthemisphere.in</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center border-white-left border-white-right" style="padding: 41px 0 40px 0;">
+                    <ul class="text-center">
+                        <li class="f-work-sans text-black hover:text-red-400 cursor-pointer" style="font-size: 14px; padding-bottom: 30px;">Home</li>
+                        <li class="f-work-sans text-black hover:text-red-400 cursor-pointer" style="font-size: 14px; padding-top: 30px;">Projects</li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center border-white-right" style="padding: 41px 0 40px 0;">
+                    <ul class="text-center">
+                        <li class="f-work-sans text-black hover:text-red-400 cursor-pointer" style="font-size: 14px; padding-bottom: 30px;">Projects</li>
+                        <li class="f-work-sans text-black hover:text-red-400 cursor-pointer" style="font-size: 14px; padding-top: 30px;">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
